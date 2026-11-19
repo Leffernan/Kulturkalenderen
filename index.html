@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="nn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F3E9">
+  <meta name="description" content="Komande konsertar, framsyningar og andre arrangement i Bygdebladet sin kulturkalender.">
+  <title>Kulturkalenderen | Bygdebladet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.mjs" type="module"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="intro">
+      <h1>Kultur<span>kalenderen</span></h1>
+      <p>Konsertar, framsyningar og andre arrangement i distriktet.</p>
+    </header>
+
+    <form class="filters" id="filters" role="search" hidden>
+      <label class="search-field">
+        <span>Stad eller arrangement</span>
+        <input type="search" id="search" placeholder="Søk i kulturkalenderen">
+      </label>
+      <label class="month-field">
+        <span>Månad</span>
+        <select id="month">
+          <option value="">Alle månader</option>
+        </select>
+      </label>
+    </form>
+
+    <p id="status" class="status" role="status">Hentar arrangement …</p>
+    <div id="events"></div>
+    <button type="button" id="more" class="show-more" hidden>Vis fleire arrangement</button>
+
+    <section id="source-fallback" hidden aria-label="Kalenderinnbygging">
+      <iframe title="Bygdebladet sin originalkalender"></iframe>
+    </section>
+
+    <footer>
+      <a id="original-link" href="https://getnotionembed.com/embed/7ec4fefa-1755-4dfd-90d4-241877ad9ad4?mode=Light" target="_blank" rel="noopener">Opne originalkalenderen</a>
+    </footer>
+
+    <noscript><p>Bruk originalkalenderen ovanfor for å sjå arrangementa.</p></noscript>
+  </main>
+</body>
+</html>

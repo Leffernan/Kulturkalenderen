@@ -11,7 +11,7 @@ try {
   const page = await browser.newPage();
   const response = await page.goto(source, { waitUntil: 'domcontentloaded', timeout: 45000 });
   if (!response?.ok()) throw new Error('Kalenderkjelda returnerte HTTP ' + response?.status());
-  await page.locator('article .notion-text').first().waitFor({ timeout: 30000 });
+  await page.locator('main.notion-page article').waitFor({ timeout: 30000 });
   const blocks = await page.locator('article .notion-h, article .notion-text').evaluateAll(nodes =>
     nodes.map(node => ({
       heading: node.classList.contains('notion-h'),
@@ -23,11 +23,12 @@ try {
     }))
   );
 
-  const { events, skipped } = parseCalendar(blocks, localDay());
-  if (!events.length || skipped.some(text => /^\d{1,2}\b/.test(text))) {
+  const checkedOn = localDay();
+  const { events, skipped } = parseCalendar(blocks, checkedOn);
+  if (skipped.some(text => /^\d{1,2}\b/.test(text))) {
     throw new Error('Kalenderformatet kunne ikkje lesast. Linjer: ' + skipped.slice(0, 4).join(' | '));
   }
-  await writeFile(destination, JSON.stringify({ events }, null, 2) + '\n');
+  await writeFile(destination, JSON.stringify({ checkedOn, events }, null, 2) + '\n');
   console.log('Henta ' + events.length + ' arrangement.');
 } finally {
   await browser.close();
