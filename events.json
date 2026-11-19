@@ -1,0 +1,586 @@
+{
+  "events": [
+    {
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "place": "ÅLESUND",
+      "description": "Kammerserien: Når Barokken møter Nord på Sobra scene. Med fiolinist Rebecca Nøstrud Grimstad og bratsjist Andreas Grimstad. Arr. Ålesund Kammermusikkfestival."
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "place": "ÅLESUND",
+      "description": "Valkyrien Allstars på Terminalen byscene."
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "place": "FOSNAVÅG",
+      "description": "Jul i Våje - Fredrik Steen & Jorunn Torsheim. Konserthuset."
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "place": "ÅLESUND",
+      "description": "Jazzcafé med Arnt-Inge Sæter kvartett på Quality Hotel Ålesund. Arr. Jazzsirkelen."
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "place": "STRANDA",
+      "description": "Svanesjøen: Symphony of lights. Storfjord kulturhus."
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "place": "BRATTVÅG",
+      "description": "TidshJul – aChoir 90 år på ID-huset."
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "place": "ÅLESUND",
+      "description": "Rave in White med Stisema på Terminalen byscene."
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "place": "SPJELKAVIK",
+      "description": "Julekonsert med Kristiansen // Vemøy i Spjelkavik kyrkje. Arr. Spjelkavik kyrkje."
+    },
+    {
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "place": "VESTNES",
+      "description": "Konsert med Topography på Hageverkstedet kulturscene. Arr. Vestnes Jazzklubb."
+    },
+    {
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "place": "FOSNAVÅG",
+      "description": "Teater workshop. Konserthuset."
+    },
+    {
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "place": "FOSNAVÅG",
+      "description": "Slik takler du IDIOTENE PÅ JOBBEN! 2. På Konserthuset"
+    },
+    {
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "place": "VALLDAL",
+      "description": "Boklansering: Tafjordfjella. Funn etter det første folket av Astor Furseth og Runar Hole på Fjord bibliotek - Valldal."
+    },
+    {
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "place": "ÅLESUND",
+      "description": "Erlend Gunstveit - My Nashville Christmas To You på Løvenvold Theater."
+    },
+    {
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "place": "STRANDA",
+      "description": "Sparebanken Møre - Tonje Glimmerdal. Storfjord kulturhus."
+    },
+    {
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "place": "FOSNAVÅG",
+      "description": "Sparebanken Møre - Tonje Glimmerdal. Konserthuset."
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-12-06",
+      "place": "ÅLESUND",
+      "description": "Putti Plutti Pott med Jugendteateret/Ålesund kulturskole. Parken kulturhus."
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "place": "SLYNGSTAD",
+      "description": "«Lys i mørketid» med SANS på Utegarden."
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "place": "FOSNAVÅG",
+      "description": "Zimmermann julekonsert. Konserthuset."
+    },
+    {
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "place": "ÅLESUND",
+      "description": "Birk Bream & Rumi Rafael på Venterommet - Terminalen."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "ÅLESUND",
+      "description": "The Good The Bad and The Zugly på Terminalen byscene."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "ÅLESUND",
+      "description": "\"For vår jord\" i Borgund kyrkje. Konsert med Anita Skorgan, Karoline Krüger og Sara Skorgan Teigen."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "FIKSDAL",
+      "description": "«Lys i mørketid» med SANS i Gamlefjøsen på Hjellmyra Gård."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "FIKSDAL",
+      "description": "Julegrantenning ved Bygdabua. Arr.: Fiksdal/Rekdal Janitsjar."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "TRESFJORD",
+      "description": "Julemesse på Tresfjord fleirbrukshus. Arr.: Tresfjord bygdekvinnelag."
+    },
+    {
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "place": "SKODJE",
+      "description": "Førjulsallsong og julegrantenning ved Gomerhuset med Skodje skulekorps, Eli-Marita Håker og Knut Ivar Bøe. Arr. Intro/Fjord Cadenza."
+    },
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "place": "ÅLESUND",
+      "description": "Adventskonsert med Ålesund symfoniorkester. Ålesund kirke."
+    },
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "place": "ÅLESUND",
+      "description": "Zimmermann - Julekonsert på Løvenvold Theater."
+    },
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "place": "SKODJE",
+      "description": "Adventskonsert med Skodje blandakor på Skodje omsorgssenter. Arrangør: Skodje Røde kors."
+    },
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "place": "ÅLESUND",
+      "description": "Julekonsert med Mannskoret Varde i Borgund kirke. Gjestar: Ytre Suløens Jass-ensemble og Tricia Boutté."
+    },
+    {
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "place": "EIDET",
+      "description": "Adventskonsert med Vatne Tennfjord Musikkorps på Eidet kulturhall."
+    },
+    {
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "place": "STORDAL",
+      "description": "Julekonsert med Big Valley Voices i Stordal kyrkje."
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "place": "ÅLESUND",
+      "description": "Deilig er jorden i Ålesund kirke. Med Rein Alexander, Elisabeth Andreassen og Kim Rysstad."
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "place": "ÅLESUND",
+      "description": "\"Dona Nobis Pacem\" - en fredfull adventskonsert med Voxing, Håvard Sveås og Kåre Nymark jr på trompet i Spjelkavik kyrkje. Arr. Spjelkavik kyrkje."
+    },
+    {
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "place": "ÅLESUND",
+      "description": "Julekonsert med allsang i Volsdalen kirke. Volsdalen salme- og lovsangskor med gjestesolistar og gjesteorkester."
+    },
+    {
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "place": "ØRSKOG",
+      "description": "Salmekveld med Skodje kyrkjekor i Ørskog kyrkje. Allsong, korsong, mat og prat."
+    },
+    {
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "place": "LIABYGDA",
+      "description": "Julekonsert med Big Valley Voices i Liabygda kyrkje."
+    },
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "place": "ÅLESUND",
+      "description": "Medan vi ventar, julekonsert med SKRUK i Ålesund kirke."
+    },
+    {
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "place": "ÅLESUND",
+      "description": "Adventskonsert med Tomra Brass Band, Magne Fremmerlid og Charlotte Fongen i Spjelkavik kirke. Arr: Tomra Brass Band."
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "place": "EIDET",
+      "description": "\"Stjernedryss\", juleshow på Eidet kulturhall med Stine Hole Ulla, Alisa Ilinskaya, Brattvåg Janitsjar og trommeorkestet. Arr. Vatne hornmusikklag."
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "place": "ÅLESUND",
+      "description": "Kamelen på Terminalen byscene."
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "place": "BRATTVÅG",
+      "description": "Hanne Sørvaag’s julekonsert - Christmas Lights. På ID-huset."
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "place": "VESTNES",
+      "description": "Adventskonsert i Vestnes kirke med Tomra Brass Band, Magne Fremmerlid og Charlotte Fongen."
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "place": "VESTNES",
+      "description": "Tradisjonell adventskonsert i Vestnes kirke med lokale korps og kor. Arr: Tomra Brass Band."
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "place": "ÅLESUND",
+      "description": "Marie Løvås Duo på Løvenvold Theater."
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "place": "ÅLESUND",
+      "description": "Saxofonisten Trygve Seim og pianisten Andreas Utnem på Sobra scene."
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "place": "STRANDA",
+      "description": "Julekonsert med Emil Solli-Tangen m/band og hundrevis av levende lys. Kulturhuset."
+    },
+    {
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "place": "STORDAL",
+      "description": "Jul i kulturskulen, konsert i Stordalshallen. Arr. Fjord kulturskule."
+    },
+    {
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "place": "ØRSKOG",
+      "description": "“Julegrana fortel” på Ørskog kulturhus. Juleførestilling av Øystein Vestre med elevane frå Ørskog skule. Arr: FAU Ørskog skule."
+    },
+    {
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "place": "ÅLESUND",
+      "description": "Ylvis & Calle - Et juleshow. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "place": "HILDRE",
+      "description": "Lokale eldsjeler i samarbeid med soknerådet arrangerer songkveldar i Hildre kyrkje. Allsong m/forsongargruppe og band. Piano, gitar, bass, slagverk. Salmar og andre songar."
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "place": "ÅLESUND",
+      "description": "Juleoperapub med Stephanie Lippert, Hallvar Djupvik og pianist Hallvard Fremstad på Fabrikken kulturscene."
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "place": "ÅLESUND",
+      "description": "Emil Solli-Tangen // Midnatt. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "place": "ÅLESUND",
+      "description": "Neon Ion på Venterommet - Terminalen."
+    },
+    {
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "place": "ÅLESUND",
+      "description": "Alexandra Rotan - Jula er her. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "place": "STORDAL",
+      "description": "Adventskonsert i Stordal kyrkje. Arr. Stordal skulekorps."
+    },
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "place": "ÅLESUND",
+      "description": "Leprous på Terminalen byscene."
+    },
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "place": "ÅLESUND",
+      "description": "Gjermund Larsen trio - Christmas Sessions. Foajeen Parken kulturhus."
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "place": "BRATTVÅG",
+      "description": "Den siste Jævelungen // Magnus Jackson Krogh. På ID-huset."
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "place": "ÅLESUND",
+      "description": "Velvet Christmas - Aalesund Big Band / Piker, Vin og Sang. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "place": "ÅLESUND",
+      "description": "\"Den vesle bygda som gløymde at det var jul\" på Arbeideren. Arr. Teatret Vårt."
+    },
+    {
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "place": "SKODJE",
+      "description": "“Juleklang i strenger og stemmer”, julekonsert med Skodje blandakor, gjesteartist Ketil Strand, Knøttekoret og Barnegospel."
+    },
+    {
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "place": "ÅLESUND",
+      "description": "Christel Alsos - I den kalde vinter. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "place": "ÅLESUND",
+      "description": "Julekonsert med Velledalskoret og Posh trio på Løvenvold Theater."
+    },
+    {
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "place": "STRANDA",
+      "description": "Den vesle bygda som gløymde at det var jul. Kulturhuset."
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "place": "SØVIK",
+      "description": "Julekonsert i Hamnsund kyrkje. Medvirkende: Ingunn, Beate og Anne-Sofie. Arr: Hamnsund Sokneråd."
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "place": "ÅLESUND",
+      "description": "Julevisekveld på Fabrikken kulturscene."
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "place": "ÅLESUND",
+      "description": "Adam Douglas - An American Holiday. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "place": "ÅLESUND",
+      "description": "Bigbang på Terminalen byscene."
+    },
+    {
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "place": "ÅLESUND",
+      "description": "Christmas With Nordic Tenors 2026. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "place": "TRESFJORD",
+      "description": "«Julekveld i Tresfjord» med Stephanie Lippert, Hallvar Djupvik, Søblomsten Shantykor, Tomrefjord barnekor mfl. Tresfjord kyrkje. Arr. Timbre AS."
+    },
+    {
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "place": "ÅLESUND",
+      "description": "Raindogs - celebrating Tom Waits på Fabrikken kulturscene."
+    },
+    {
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "place": "BRATTVÅG",
+      "description": "Heimatt til jul, i storsalen på ID-huset."
+    },
+    {
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "place": "ÅLESUND",
+      "description": "Eva Weel Skram. Falle til ro - Ein julekonsert 2026. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "place": "ÅLESUND",
+      "description": "Darling West - Juleturné 26 på Løvenvold Theater."
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "place": "ÅLESUND",
+      "description": "Anita Valderhaug m/gjester: Julero. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "place": "SKODJE",
+      "description": "«O Helga Natt» med Magne Fremmerlid, Charlotte Fongen og Odd Johan Overøye. Nerskøyløa."
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "place": "ÅLESUND",
+      "description": "Julekonsert med Egil Olsen på Løvenvold Theater."
+    },
+    {
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "place": "ØRSKOG",
+      "description": "Julekonserten “Julefred” i Ørskog kyrkje med Skodje Blandakor og Ørskog Brass. Arr: Ørskog Brass."
+    },
+    {
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "place": "SPJELKAVIK",
+      "description": "«O Helga Natt» med Magne Fremmerlid, Charlotte Fongen, Odd Johan Overøye og Mannskoret Sunnmøre. Spjelkavik kyrkje."
+    },
+    {
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "place": "ÅLESUND",
+      "description": "Snowing on my Piano - Bugge Wesseltoft. Parken kulturhus."
+    },
+    {
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "place": "FIKSDAL",
+      "description": "Førjulskonsert i Fiksdal kyrkje. Tomrefjord Songlag, Fiksdal/Rekdal Janitsjar, Fiksdal Fjas og Fuge. Arr.: Fiksdal/Rekdal Janitsjar."
+    },
+    {
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "place": "ÅLESUND",
+      "description": "Vassendgutane på Terminalen byscene."
+    },
+    {
+      "start": "2026-12-28",
+      "end": "2026-12-28",
+      "place": "STRANDA",
+      "description": "Faculty of Funk. Storfjord kulturhus."
+    },
+    {
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "place": "VESTNES",
+      "description": "Foredrag på Myra kulturhus. Tema: \"Vilje til fred\" ved tidlegare toppdiplomat og politikar Kai Eide. Arrangør: Vestnes Seniorakademi."
+    },
+    {
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "place": "ÅLESUND",
+      "description": "John Hammersmark - Det kan alltid bli verre. Parken kulturhus."
+    },
+    {
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "place": "ÅLESUND",
+      "description": "Ny dato! Tuva & Ronny - Eit show om kjærleik og gyros. Parken kulturhus."
+    },
+    {
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "place": "BRATTVÅG",
+      "description": "Idiotene på jobben 2, på ID-huset."
+    },
+    {
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "place": "ÅLESUND",
+      "description": "Odd Nordstoga - Før du går. Parken kulturhus."
+    },
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "place": "ÅLESUND",
+      "description": "The Show Must Go On - Åge Sten Nilsen. Parken kulturhus."
+    },
+    {
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "place": "ÅLESUND",
+      "description": "Krusedullmakar - musikalsk framsyning på Sobra scene. Med Håkon Hagen Knudsen (tekst, komposisjon, treblås og elektronikk), Camilla Hole (treblås) og Siril Malmedal Hauge (vokal og fløyte)."
+    },
+    {
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "place": "ÅLESUND",
+      "description": "Ole Reinlund - Plateslipp. Foajeen Parken kulturhus."
+    },
+    {
+      "start": "2027-01-21",
+      "end": "2027-01-24",
+      "place": "ÅLESUND",
+      "description": "Ålesunds historiske dager. Arr. Ålesund Sentrumsforening."
+    },
+    {
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "place": "ÅLESUND",
+      "description": "Brosundet brenner, multimediaforestilling. Arr. Ålesund Sentrumsforening."
+    },
+    {
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "place": "ÅLESUND",
+      "description": "Slomosa på Terminalen byscene."
+    },
+    {
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "place": "ÅLESUND",
+      "description": "Høyt & Lavt - BAdesKen og Rune Nilson på Løvenvold Theater."
+    },
+    {
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "place": "ÅLESUND",
+      "description": "Aktiv Dödshjel på Terminalen byscene."
+    },
+    {
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "place": "ÅLESUND",
+      "description": "\"Bærre Bjarne\" - et musikalsk standupshow på Løvenvold Theater."
+    }
+  ]
+}
