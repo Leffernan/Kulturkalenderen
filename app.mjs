@@ -9,6 +9,7 @@ const status = document.querySelector('#status');
 const more = document.querySelector('#more');
 const batchSize = 18;
 const feed = 'https://raw.githubusercontent.com/Leffernan/Kulturkalenderen/calendar-data/events.json';
+const apiFeed = 'https://api.github.com/repos/Leffernan/Kulturkalenderen/contents/events.json?ref=calendar-data';
 const today = localDay();
 let upcoming = [];
 let shown = batchSize;
@@ -95,20 +96,28 @@ function resetFilter() {
   render();
 }
 
+async function fetchEvents(url) {
+  const response = await fetch(url, { cache: 'no-cache', signal: AbortSignal.timeout(6000) });
+  if (!response.ok) throw new Error('Kalenderdata er utilgjengelege');
+  let data = await response.json();
+  if (data.encoding === 'base64' && typeof data.content === 'string') {
+    const bytes = Uint8Array.from(atob(data.content), char => char.charCodeAt(0));
+    data = JSON.parse(new TextDecoder().decode(bytes));
+  }
+  const validDay = value => typeof value === 'string' && /^20\d{2}-(?:0[1-9]|1[0-2])-\d{2}$/.test(value);
+  if (!validDay(data.checkedOn) || Date.parse(today) - Date.parse(data.checkedOn) > 2 * 86400000 ||
+    !Array.isArray(data.events) || !data.events.every(event =>
+    validDay(event?.start) && validDay(event.end) && event.start <= event.end &&
+    typeof event.place === 'string' && typeof event.description === 'string')) {
+    throw new Error('Ugyldige kalenderdata');
+  }
+  return data.events;
+}
+
 async function load() {
   try {
-    const response = await fetch(feed, { signal: AbortSignal.timeout(8500) });
-    if (!response.ok) throw new Error('Kalenderdata er utilgjengelege');
-    const data = await response.json();
-    const validDay = value => typeof value === 'string' && /^20\d{2}-(?:0[1-9]|1[0-2])-\d{2}$/.test(value);
-    if (!validDay(data.checkedOn) || Date.parse(today) - Date.parse(data.checkedOn) > 2 * 86400000 ||
-      !Array.isArray(data.events) || !data.events.every(event =>
-      validDay(event?.start) && validDay(event.end) && event.start <= event.end &&
-      typeof event.place === 'string' && typeof event.description === 'string')) {
-      throw new Error('Ugyldige kalenderdata');
-    }
-
-    upcoming = data.events.filter(event => event.end >= today).sort((a, b) => a.start.localeCompare(b.start));
+    const events = await fetchEvents(feed).catch(() => fetchEvents(apiFeed));
+    upcoming = events.filter(event => event.end >= today).sort((a, b) => a.start.localeCompare(b.start));
     for (const id of activeMonths(upcoming)) {
       const label = monthLabel(id);
       month.add(new Option(label[0].toUpperCase() + label.slice(1), id));
