@@ -1,6 +1,5 @@
 import { formatSpan, localDay, monthNames } from './calendar.mjs';
 
-const source = document.querySelector('#original-link');
 const filters = document.querySelector('#filters');
 const search = document.querySelector('#search');
 const month = document.querySelector('#month');
@@ -126,7 +125,8 @@ async function load() {
     render();
   } catch {
     const fallback = document.querySelector('#source-fallback');
-    fallback.querySelector('iframe').src = source.href;
+    const frame = fallback.querySelector('iframe');
+    frame.src = frame.dataset.src;
     fallback.hidden = false;
     status.textContent = 'Viser originalkalenderen.';
   }

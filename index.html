@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.mjs?v=2" type="module"></script>
+  <link rel="stylesheet" href="styles.css?v=3">
+  <script src="app.mjs?v=3" type="module"></script>
 </head>
 <body>
   <main class="shell">
@@ -37,14 +37,10 @@
     <button type="button" id="more" class="show-more" hidden>Vis fleire arrangement</button>
 
     <section id="source-fallback" hidden aria-label="Kalenderinnbygging">
-      <iframe title="Bygdebladet sin originalkalender"></iframe>
+      <iframe title="Bygdebladet sin originalkalender" data-src="https://getnotionembed.com/embed/7ec4fefa-1755-4dfd-90d4-241877ad9ad4?mode=Light"></iframe>
     </section>
 
-    <footer>
-      <a id="original-link" href="https://getnotionembed.com/embed/7ec4fefa-1755-4dfd-90d4-241877ad9ad4?mode=Light" target="_blank" rel="noopener">Opne originalkalenderen</a>
-    </footer>
-
-    <noscript><p>Bruk originalkalenderen ovanfor for å sjå arrangementa.</p></noscript>
+    <noscript><p>Slå på JavaScript for å sjå arrangementa.</p></noscript>
   </main>
 </body>
 </html>
