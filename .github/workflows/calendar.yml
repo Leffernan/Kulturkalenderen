@@ -16,6 +16,7 @@ permissions:
 
 concurrency:
   group: kulturkalender-data
+  cancel-in-progress: true
 
 jobs:
   sync:
@@ -26,10 +27,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
-      - name: Installer Chromium
-        run: |
-          npm install --no-save --no-package-lock playwright@1.60.0
-          npx playwright install --with-deps chromium
+      - name: Installer Playwright
+        run: npm install --no-save --no-package-lock playwright@1.65.1
       - name: Hent den offentlege kalenderen
         run: node scripts/sync.mjs "$RUNNER_TEMP/events.json"
       - name: Publiser kalenderdata ved endring

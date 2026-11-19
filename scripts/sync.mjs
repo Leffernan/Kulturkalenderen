@@ -6,7 +6,7 @@ const source = 'https://getnotionembed.com/embed/7ec4fefa-1755-4dfd-90d4-241877a
 const destination = process.argv[2];
 if (!destination) throw new Error('Oppgje filnamn for kalenderdata.');
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ channel: 'chrome' });
 try {
   const page = await browser.newPage();
   const response = await page.goto(source, { waitUntil: 'domcontentloaded', timeout: 45000 });
