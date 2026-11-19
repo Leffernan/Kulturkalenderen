@@ -1,0 +1,53 @@
+name: Oppdater kulturkalenderen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/calendar.yml
+      - scripts/sync.mjs
+      - calendar.mjs
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kulturkalender-data
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Installer Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.60.0
+          npx playwright install --with-deps chromium
+      - name: Hent den offentlege kalenderen
+        run: node scripts/sync.mjs "$RUNNER_TEMP/events.json"
+      - name: Publiser kalenderdata ved endring
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin calendar-data >/dev/null; then
+            git fetch --no-tags origin calendar-data
+            git switch --detach FETCH_HEAD
+          else
+            git switch --orphan calendar-data
+          fi
+          cp "$RUNNER_TEMP/events.json" events.json
+          git add -- events.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Oppdater arrangement'
+          git push origin HEAD:refs/heads/calendar-data
