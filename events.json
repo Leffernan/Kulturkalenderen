@@ -2,12 +2,6 @@
   "checkedOn": "2026-11-20",
   "events": [
     {
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "place": "ÅLESUND",
-      "description": "Kammerserien: Når Barokken møter Nord på Sobra scene. Med fiolinist Rebecca Nøstrud Grimstad og bratsjist Andreas Grimstad. Arr. Ålesund Kammermusikkfestival."
-    },
-    {
       "start": "2026-11-20",
       "end": "2026-11-20",
       "place": "ÅLESUND",
@@ -456,6 +450,12 @@
       "end": "2026-12-19",
       "place": "SKODJE",
       "description": "«O Helga Natt» med Magne Fremmerlid, Charlotte Fongen og Odd Johan Overøye. Nerskøyløa."
+    },
+    {
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "place": "BRATTVÅG",
+      "description": "Jul, jul, stålande jul! - konsert i Brattvåg kyrkje med Brattvåg janitsjar. Songsolistar: Håkon Rodvelt Anvik og Filip Natanael Håkestad."
     },
     {
       "start": "2026-12-19",
