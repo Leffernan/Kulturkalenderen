@@ -2,60 +2,6 @@
   "checkedOn": "2026-11-23",
   "events": [
     {
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "place": "ÅLESUND",
-      "description": "Valkyrien Allstars på Terminalen byscene."
-    },
-    {
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "place": "FOSNAVÅG",
-      "description": "Jul i Våje - Fredrik Steen & Jorunn Torsheim. Konserthuset."
-    },
-    {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "place": "ÅLESUND",
-      "description": "Jazzcafé med Arnt-Inge Sæter kvartett på Quality Hotel Ålesund. Arr. Jazzsirkelen."
-    },
-    {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "place": "STRANDA",
-      "description": "Svanesjøen: Symphony of lights. Storfjord kulturhus."
-    },
-    {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "place": "BRATTVÅG",
-      "description": "TidshJul – aChoir 90 år på ID-huset."
-    },
-    {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "place": "ÅLESUND",
-      "description": "Rave in White med Stisema på Terminalen byscene."
-    },
-    {
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "place": "SPJELKAVIK",
-      "description": "Julekonsert med Kristiansen // Vemøy i Spjelkavik kyrkje. Arr. Spjelkavik kyrkje."
-    },
-    {
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "place": "VESTNES",
-      "description": "Konsert med Topography på Hageverkstedet kulturscene. Arr. Vestnes Jazzklubb."
-    },
-    {
-      "start": "2026-11-22",
-      "end": "2026-11-22",
-      "place": "FOSNAVÅG",
-      "description": "Teater workshop. Konserthuset."
-    },
-    {
       "start": "2026-11-24",
       "end": "2026-11-24",
       "place": "FOSNAVÅG",
@@ -582,6 +528,60 @@
       "end": "2027-01-29",
       "place": "ÅLESUND",
       "description": "\"Bærre Bjarne\" - et musikalsk standupshow på Løvenvold Theater."
+    },
+    {
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "place": "BRATTVÅG",
+      "description": "Humorgalla på ID-huset."
+    },
+    {
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "place": "ÅLESUND",
+      "description": "Humorgalla med Nora Svenningsen, Egil Skurdal og Henrik Bjørnson på Løvenvold Theater."
+    },
+    {
+      "start": "2027-01-31",
+      "end": "2027-01-31",
+      "place": "BRATTVÅG",
+      "description": "Husjomfru // Teatret Vårt, på ID-huset."
+    },
+    {
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "place": "SPJELKAVIK",
+      "description": "Vidunderligst av alt på jord\" i Spjelkavik kyrkje. Med Iver Kleive – orgel og Knut Reiersrud – gitarer. Arr. Spjelkavik kyrkje. 5.-6. feb – ÅLESUND: \"Ingen Kim, ingen kos\" - en hyllest til Kim Larsen på Fabrikken kulturscene."
+    },
+    {
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "place": "ÅLESUND",
+      "description": "Finn tre feil - Sørensen/Nelvik/Riis. Parken kulturhus."
+    },
+    {
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "place": "BRATTVÅG",
+      "description": "Janove live 2027, på ID-huset."
+    },
+    {
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "place": "ÅLESUND",
+      "description": "Oscar Danielson - Solo. Foajeen Parken kulturhus."
+    },
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "place": "ÅLESUND",
+      "description": "Hvis Gud Vil - En standupforestilling av Galvan Mehidi. Parken kulturhus."
+    },
+    {
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "place": "ÅLESUND",
+      "description": "Nils-Ingar Aadne - \"Tenk det\", standup på Løvenvold Theater."
     }
   ]
 }
