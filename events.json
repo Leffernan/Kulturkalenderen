@@ -560,6 +560,12 @@
       "description": "Finn tre feil - Sørensen/Nelvik/Riis. Parken kulturhus."
     },
     {
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "place": "ÅLESUND",
+      "description": "Hilde Marie Kjersem med venner på Løvenvold Theater."
+    },
+    {
       "start": "2027-02-10",
       "end": "2027-02-10",
       "place": "BRATTVÅG",
@@ -576,12 +582,6 @@
       "end": "2027-02-12",
       "place": "ÅLESUND",
       "description": "Hvis Gud Vil - En standupforestilling av Galvan Mehidi. Parken kulturhus."
-    },
-    {
-      "start": "2027-02-12",
-      "end": "2027-02-12",
-      "place": "ÅLESUND",
-      "description": "Nils-Ingar Aadne - \"Tenk det\", standup på Løvenvold Theater."
     }
   ]
 }
