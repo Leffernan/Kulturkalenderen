@@ -458,6 +458,18 @@
       "description": "Faculty of Funk. Storfjord kulturhus."
     },
     {
+      "start": "2026-12-28",
+      "end": "2026-12-28",
+      "place": "SKODJE",
+      "description": "Juletrefest på Fagerheim. Arr. Skodje Frilynde Ungdomslag."
+    },
+    {
+      "start": "2026-12-28",
+      "end": "2026-12-28",
+      "place": "SKODJE",
+      "description": "Julekviss på Fagerheim. Arr. Skodje Frilynde Ungdomslag."
+    },
+    {
       "start": "2027-01-06",
       "end": "2027-01-06",
       "place": "VESTNES",
@@ -570,18 +582,6 @@
       "end": "2027-02-05",
       "place": "ÅLESUND",
       "description": "Finn tre feil - Sørensen/Nelvik/Riis. Parken kulturhus."
-    },
-    {
-      "start": "2027-02-05",
-      "end": "2027-02-05",
-      "place": "ÅLESUND",
-      "description": "Hilde Marie Kjersem med venner på Løvenvold Theater."
-    },
-    {
-      "start": "2027-02-10",
-      "end": "2027-02-10",
-      "place": "BRATTVÅG",
-      "description": "Janove live 2027, på ID-huset."
     }
   ]
 }
