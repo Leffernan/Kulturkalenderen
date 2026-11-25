@@ -297,6 +297,12 @@
     },
     {
       "start": "2026-12-12",
+      "end": "2026-12-12",
+      "place": "VESTNES",
+      "description": "Julejazz med Maria Vik band på MaRitz kafeteria."
+    },
+    {
+      "start": "2026-12-12",
       "end": "2026-12-13",
       "place": "ÅLESUND",
       "description": "\"Den vesle bygda som gløymde at det var jul\" på Arbeideren. Arr. Teatret Vårt."
@@ -432,6 +438,12 @@
       "end": "2026-12-20",
       "place": "FIKSDAL",
       "description": "Førjulskonsert i Fiksdal kyrkje. Tomrefjord Songlag, Fiksdal/Rekdal Janitsjar, Fiksdal Fjas og Fuge. Arr.: Fiksdal/Rekdal Janitsjar."
+    },
+    {
+      "start": "2026-12-20",
+      "end": "2026-12-20",
+      "place": "TRESFJORD",
+      "description": "Adventskonsert i Tresfjord kyrkje medTresfjord janitsjar, Tressa barnekor og Spelemannslaget Dåm og Drag."
     },
     {
       "start": "2026-12-27",
@@ -570,18 +582,6 @@
       "end": "2027-02-10",
       "place": "BRATTVÅG",
       "description": "Janove live 2027, på ID-huset."
-    },
-    {
-      "start": "2027-02-11",
-      "end": "2027-02-11",
-      "place": "ÅLESUND",
-      "description": "Oscar Danielson - Solo. Foajeen Parken kulturhus."
-    },
-    {
-      "start": "2027-02-12",
-      "end": "2027-02-12",
-      "place": "ÅLESUND",
-      "description": "Hvis Gud Vil - En standupforestilling av Galvan Mehidi. Parken kulturhus."
     }
   ]
 }
